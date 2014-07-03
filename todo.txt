@@ -1,0 +1,8 @@
+separer la creation des phantomes ds un autre prog ?
+
+conventions objets: méthodes protected -> assert(initialized)
+                    méthodes public -> test (initialized) & exception
+                    
+Implémantation RAW de ScannerFile
+
+On peut packer toutes les projections dans une seule texture 2D (pour des volumes jusqu'a 256³)

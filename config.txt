@@ -1,0 +1,27 @@
+
+
+# OSEM algorithm processes the projection one subset at a time
+# The more subsets you have the faster the reconstruction will be
+# ! It has to be a divisor of the number of projections of the input file ! 
+#
+NB_SUBSETS          = 3
+
+
+# OSEM algorithm converges toward the solution after several iterations
+# More iterations can make the solution more accurate but it can also add noise
+# The number of true MLEM iteration is NB_SUBSETS * NB_ITERATIONS 
+#
+NB_ITERATIONS       = 3
+
+
+# set this to 0/1 to desactivate/activate the OSEM3D algorithm (collimator Point Spread Function used in the reconstruction) 
+#
+USE_OSEM3D          = 1
+
+
+# parameters of the camera (used by OSEM3D algorithm)
+#
+CAMERA_ROTATION_RADIUS     =  0.15
+CAMERA_RESOLUTION          =  0.003
+COLLIMATOR_HOLES_DIAMETER  =  0.0015
+COLLIMATOR_DEPTH           =  0.04

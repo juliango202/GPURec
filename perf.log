@@ -1,0 +1,45 @@
+
+===== Timers =====
+
+ - 1 Projection - 
+|  min| 0.0356688
+|  max| 0.0998973
+|  avg| 0.03665
+|total| 6.597
+|count| 180
+
+ - TOTAL - 
+|  min| 14.029
+|  max| 14.029
+|  avg| 14.029
+|total| 14.029
+|count| 1
+
+ - VolumeBackprojection - 
+|  min| 0.591656
+|  max| 0.68117
+|  avg| 0.605253
+|total| 5.44728
+|count| 9
+
+ - conv - 
+|  min| 0.000202819
+|  max| 0.0603292
+|  avg| 0.000227258
+|total| 5.23601
+|count| 23040
+
+ - convback - 
+|  min| 0.00069087
+|  max| 0.0794436
+|  avg| 0.000768117
+|total| 4.42435
+|count| 5760
+
+ - glCopyTexSubImage3D - 
+|  min| 0.00294563
+|  max| 0.00643965
+|  avg| 0.00319776
+|total| 0.920956
+|count| 288
+
